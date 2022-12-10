@@ -1,0 +1,17 @@
+
+
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 246px;
+  height: 256px;
+}
+
+body
+{
+	color: #2A374A;
+	background-color: #2A374A;
+
+}

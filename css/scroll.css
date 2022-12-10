@@ -1,0 +1,548 @@
+.scroll_movement
+  {
+    
+    background: #212529;
+    direction: ltr; 
+  }
+    
+.digitalFont
+  {
+    font-size: 20px;  
+    font-family: Corduroy-Regular;
+	color: #fff;
+  } 
+.digitalFontNav
+  {
+    font-size: 15px;  
+    font-family: Corduroy-Regular;
+	color: #fff;
+  } 
+
+blockquote
+{
+	background: #29292b0f;
+}
+
+.background_div
+{
+	background: #212529;
+	opacity: 0.9;
+}	
+
+body,html
+{
+	
+	font-family: "Poppins", sans-serif;
+	height: 100%;
+	opacity: 0.95;
+	
+}
+
+.div_loader
+{
+	
+	position:fixed;
+    padding:0;
+    margin:0;
+	background:rgba(10, 10, 10,1);
+	z-index: 2400;
+	top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+	
+	
+}
+.center_gif_preload
+{
+	
+	
+	display: block;
+	margin-top:25%;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+
+	
+}
+
+@media only screen and (min-device-width: 1366px){
+.img_header{
+		max-height: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			width: auto;
+			display: block;
+}
+}
+
+.parallax {
+  /* The image used 
+  background-image: url('/assets/thunder_back.png');
+	
+  /* Full height 
+  height: 100%;
+
+  /* Create the parallax scrolling effect 
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: repeat;
+  */
+  
+  background: #23074d;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+
+.background_body_card
+{
+	/*background: #fbdd690f; */
+	background: #E8E8E8;
+	
+}
+	 
+  
+  
+  @font-face {
+ font-family: Corduroy-Regular; /* requerido */
+ src:	url('/fonts/Corduroy-Regular.otf');                       /* requerido */
+ font-weight: weight;                /* opcional */
+ font-style: style;                /* opcional */
+}
+
+.fa-facebook:hover
+{ 
+background: #1877F2;
+ color: #ffffff;
+	
+}
+.fa-instagram:hover
+{ 
+ background: #E4405F;
+  color: #ffffff;
+	
+}
+.fa-twitter:hover
+{ 
+  background: #1DA1F2;
+  color: #ffffff;
+	
+}
+.fa-github:hover
+{ 
+background: #1877F2;
+ color: #ffffff;
+	
+}
+
+.fa-youtube:hover
+{ 
+ background: #CD201F;
+  color: #ffffff;
+	
+}
+
+
+
+/* From uiverse.io by @Voxybuns */
+button {
+  /* Variables */
+ --button_radius: 0.75em;
+ --button_color: #e8e8e8;
+ --button_outline_color: #000000;
+ font-size: 17px;
+ font-weight: bold;
+ border: none;
+ border-radius: var(--button_radius);
+ background: var(--button_outline_color);
+}
+
+.button_top {
+ display: block;
+ box-sizing: border-box;
+ border: 2px solid var(--button_outline_color);
+ border-radius: var(--button_radius);
+ padding: 0.75em 1.5em;
+ background: var(--button_color);
+ color: var(--button_outline_color);
+ transform: translateY(-0.2em);
+ transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+  /* Pull the button upwards when hovered */
+ transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+  /* Push the button downwards when pressed */
+ transform: translateY(0);
+}
+
+.anchor_custom
+{
+ text-decoration: none;
+ color:  #000000;
+
+}
+.fade_div
+{
+	
+	
+	
+	opacity: 0.95;
+	
+	 
+	
+	
+}
+/* From uiverse.io by @martinval9 */
+/* The switch - the box around the slider */
+.switch {
+ font-size: 11px;
+ position: relative;
+ display: inline-block;
+ width: 3.5em;
+ height: 1em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+
+/* The slider */
+.slider {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #ccc;
+ border: 2px solid #000;
+ transition: .4s;
+ border-radius: 1px;
+}
+
+.slider:before {
+ position: absolute;
+ content: "";
+ height: 1.3em;
+ width: 1.2em;
+ border-radius: 2px;
+ left: 0.2em;
+ bottom: 0.3em;
+ background-color: #fff;
+ border: 2px solid #000;
+ transition: 0.1s;
+}
+
+
+
+input:checked + .slider {
+ background-color: #000;
+}
+
+input:focus + .slider {
+ box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+ transform: translateX(1.3em);
+}
+
+
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+	
+}
+.input-search{
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 50%;
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  padding-right: 40px;
+  color:#fff;
+}
+.input-search::placeholder{
+  color:rgba(255,255,255,.5);
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search{
+  width: 50px;
+  height: 45px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20%;
+  position: absolute;
+  right: 0px;
+  color:#ffffff ;
+  background-color:transparent;
+  pointer-events: painted;  
+}
+.btn-search:hover ~ .input-search{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:hover{
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Oswald:400,300,700);
+
+
+
+.mainMenuOverlay.open .navire{right:70%;-webkit-transition: right 28s ease 1s; transition: right 28s ease 1s;}
+/* ### main Menu Overlay */
+.mainMenuOverlay {
+	background-color: rgba(201, 90, 62, 0.84);
+	position: fixed;left: 0;right: 0;bottom: -420px;z-index: 999;
+	height: 420px;
+	box-shadow: 0 0 15px -3px #03374A;
+  border-radius: 100% 100% 0 0 / 14% 14% 0 0;
+	-webkit-transition: bottom 0.5s ease; transition: bottom 0.5s ease;
+}
+
+.mainMenuOverlay.open {	bottom: 0; }
+
+.mainMenuOverlay .toggleMenu {
+	display: block;
+	/*background: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/sandwich.png) no-repeat center center #65B5D0;background-size: 23px auto;*/
+  background-color:rgb(49, 21, 86, 0.8);
+	border: 1px solid #FFF;	border-radius: 80px;
+	width: 62px;height: 62px;
+	position: absolute;top: -12px;left: 50%;
+	margin: -31px 0 0 -31px;
+	cursor: pointer;
+  font-size:24px; color:#FFF; text-align:center; line-height:62px;
+	box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2) inset, 0 0 16px -4px #063343;
+	-webkit-transition: box-shadow 0.5s ease, top 0.5s ease; transition: box-shadow 0.5s ease, top 0.5s ease;
+}
+
+.mainMenuOverlay .toggleMenu:hover, .mainMenuOverlay .toggleMenu:active{}
+
+.mainMenuOverlay.open .toggleMenu {	top: 50%;	background-color: #C95A3E;}
+
+
+
+.mainMenuOverlay .itemMenuBox {
+	background: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/go2.png) no-repeat center center;background-size: 28px auto;
+	position: absolute;	top: 50%;	left: 50%;
+	margin: -31px 0 0 -31px;
+	height: 62px;	width: 142px;
+	text-align: right;
+	border-radius: 40px;
+	-webkit-transform-origin: 31px 31px;
+	-ms-transform-origin: 31px 31px;
+	transform-origin: 31px 31px;
+	-webkit-transition: all 1s ease 0.4s;
+	transition: all 1s ease 0.4s;
+}
+
+.mainMenuOverlay.open .itemMenuBox {width: 182px;	-webkit-transition: all 1s ease 0s;	transition: all 1s ease 0s;
+}
+
+.mainMenuOverlay .itemMenuBox.bills {-webkit-transform: rotate(270deg);	-ms-transform: rotate(270deg);	transform: rotate(270deg);
+}
+
+.mainMenuOverlay .itemMenuBox.tarsheed {-webkit-transform: rotate(330deg);	-ms-transform: rotate(330deg);	transform: rotate(330deg);
+}
+
+.mainMenuOverlay .itemMenuBox.employees {-webkit-transform: rotate(30deg);	-ms-transform: rotate(30deg);	transform: rotate(30deg);
+}
+
+.mainMenuOverlay .itemMenuBox.location {-webkit-transform: rotate(90deg);	-ms-transform: rotate(90deg);	transform: rotate(90deg);
+}
+
+.mainMenuOverlay .itemMenuBox.eservices {-webkit-transform: rotate(150deg);	-ms-transform: rotate(150deg);	transform: rotate(150deg);
+}
+
+.mainMenuOverlay .itemMenuBox.contact {-webkit-transform: rotate(210deg);	-ms-transform: rotate(210deg);	transform: rotate(210deg);
+}
+
+.mainMenuOverlay .itemMenuBox .itemMenu {
+	display: inline-block;
+	border: 2px solid rgba(255,255,255,0.6);	border-radius: 40px;
+	background-color: #311556;	background-repeat: no-repeat;	background-position: center center;
+	width: 62px;height: 62px;
+	border-radius: 40px;
+  transition: all 0.8s ease;
+  color:#FFF; font-size:28px; line-height:64px; text-align:center;
+}
+
+
+.mainMenuOverlay .itemMenuBox.bills .itemMenu {
+	/*background-image: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/file.png);
+	background-size: 20px auto;*/
+	-webkit-transform: rotate(90deg);	-ms-transform: rotate(90deg);	transform: rotate(90deg);
+}
+
+
+.mainMenuOverlay .itemMenuBox.tarsheed .itemMenu {
+	/* background-image: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/tarsheed.png); 
+	background-size: 38px auto;*/
+	-webkit-transform: rotate(30deg);	-ms-transform: rotate(30deg);	transform: rotate(30deg);
+}
+
+.mainMenuOverlay .itemMenuBox.employees .itemMenu {
+	/*background-image: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/employees.png);
+	background-size: 38px auto;*/
+	-webkit-transform: rotate(330deg);-ms-transform: rotate(330deg);transform: rotate(330deg);
+}
+
+
+
+.mainMenuOverlay .itemMenuBox.location .itemMenu {
+	/*background-image: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/marker.png);
+	background-size: 24px auto;*/
+	-webkit-transform: rotate(270deg);	-ms-transform: rotate(270deg);	transform: rotate(270deg);
+}
+
+
+
+.mainMenuOverlay .itemMenuBox.eservices .itemMenu {
+	/*background-image: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/mouse.png);
+	background-size: 32px auto;*/
+	-webkit-transform: rotate(210deg);	-ms-transform: rotate(210deg);	transform: rotate(210deg);
+}
+
+
+
+.mainMenuOverlay .itemMenuBox.contact .itemMenu {
+	/*background-image: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/phone.png);
+	background-size: 19px auto;*/
+	-webkit-transform: rotate(150deg);	-ms-transform: rotate(150deg);	transform: rotate(150deg);
+}
+
+/* Hover */
+.mainMenuOverlay .itemMenuBox.bills .itemMenu:hover {
+    -webkit-transform: rotate(450deg);	-ms-transform: rotate(450deg);	transform: rotate(450deg);
+}
+
+.mainMenuOverlay .itemMenuBox.tarsheed .itemMenu:hover {
+    -webkit-transform: rotate(390deg);	-ms-transform: rotate(390deg);	transform: rotate(390deg);
+}
+
+.mainMenuOverlay .itemMenuBox.employees .itemMenu:hover {
+    -webkit-transform: rotate(690deg);	-ms-transform: rotate(690deg);	transform: rotate(690deg);
+}
+
+.mainMenuOverlay .itemMenuBox.location .itemMenu:hover {
+    -webkit-transform: rotate(630deg);	-ms-transform: rotate(630deg);	transform: rotate(630deg);
+}
+
+.mainMenuOverlay .itemMenuBox.eservices .itemMenu:hover {
+    -webkit-transform: rotate(570deg);	-ms-transform: rotate(570deg);	transform: rotate(570deg);
+}
+
+.mainMenuOverlay .itemMenuBox.contact .itemMenu:hover {
+    -webkit-transform: rotate(510deg);	-ms-transform: rotate(510deg);	transform: rotate(510deg);
+}
+
+
+
+.floating{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 5px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 5px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+.floating2{
+    -webkit-animation-name: Floatingx2;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating2;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx2{
+    from {-webkit-transform:translate(0, 0px);}
+    45% {-webkit-transform:translate(0, 8px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating2{
+    from {-moz-transform:translate(0, 0px);}
+    45% {-moz-transform:translate(0, 8px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+.floating3{
+    -webkit-animation-name: Floatingx3;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating3;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx3{
+    from {-webkit-transform:translate(0, 0px);}
+    50% {-webkit-transform:translate(2px, 4px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating3{
+    from {-moz-transform:translate(0, 0px);}
+    50% {-moz-transform:translate(2px, 4px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
